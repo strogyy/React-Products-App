@@ -1,0 +1,55 @@
+.searchInp { 
+  color: black;
+}
+.ProductsData {
+  text-align: center;
+}
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.header-products {
+  margin: 40px 0px;
+}
+.product {
+  width: 550px;
+  max-width: 90%;
+  margin: 50px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  min-height: 650px;
+  cursor: pointer;
+  transition: .2s;
+}
+.product:hover {
+  transform: scale(1.03);
+}
+.aoflink {
+  width: 100%;
+  height: 100%;
+}
+.product-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-img {
+  width: 100%;
+  pointer-events: none;
+  border-radius: 15px;
+}
+.product-title {
+  color: rgb(236, 102, 102);
+  font-size: 22px;
+}
+
+.product-description {
+  color: rgba(37, 37, 37, 0.774);
+}
+.product-texts {
+  margin: 40px 20px 20px 20px;
+}

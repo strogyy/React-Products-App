@@ -1,0 +1,20 @@
+.searchInp {
+    height: 50px;
+    width: 400px;
+    max-width: 85%;
+    padding: 0px 20px;
+    border-radius: 20px;
+    background-color: #242525;
+    border: 1px solid  #fff;
+    color: white;
+}
+.input-container {
+    position: relative;
+}
+
+.searchIcon {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 15px;
+    pointer-events: none;
+}

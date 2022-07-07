@@ -1,0 +1,22 @@
+.not-found-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+.not-found-inner {
+  max-width: 80%;
+}
+.not-found-inner h2 {
+  margin-bottom: 20px;
+}
+.goHome {
+  padding: 10px 10px;
+  bottom: 4%;
+  background-color: rgb(0, 223, 174);
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.979);
+}
